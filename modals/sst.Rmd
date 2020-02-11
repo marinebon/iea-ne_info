@@ -1,2 +1,17 @@
+<!-- ![Fig X. caption here](https://noaa-edab.github.io/tech-doc/images/sst-anom.png) -->
 
-![](https://noaa-edab.github.io/tech-doc/images/sst-anom.png)
+# Map
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+
+```{r}
+library(leaflet)
+library(dplyr)
+
+leaflet() %>% 
+  addProviderTiles(providers$Esri.OceanBasemap)  
+```
+
