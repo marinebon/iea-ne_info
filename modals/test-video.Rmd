@@ -2,6 +2,9 @@
 knitr::opts_chunk$set(echo=F, message=F, warning=F, error=F)
 ```
 
+Source: [iea-ne_info](https://github.com/marinebon/iea-ne_info/blob/master/modals/test-video.html)
+
 ```{r}
 vembedr::embed_vimeo(195622451, width = "100%")
 ```
+
